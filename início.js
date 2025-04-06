@@ -1,5 +1,5 @@
 var user = localStorage.getItem("nome")
-
+//Inicio
 let exit
 function look() {
  let opc = document.getElementById("opcs")
