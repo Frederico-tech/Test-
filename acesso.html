@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+
+<body>
+<h1>
+  Selecionar um Cadeira pra começar 
+</h1>
+<div id="cadeiras">
+  <a id="linkEl" href="/Primeira/electrónica /electronica.html">
+  <button id="el">
+   <i id="text">
+      ⚡ Electrónica.
+   </i>
+  </button>
+  </a>
+  <a href="">
+  <button id="ep">
+    💻👨‍💻🖥️  Programação.
+  </button>
+  </a>
+  <a href="">
+  <button id="qm">
+    ⚗️🧪 Química.
+  </button>
+  </a>
+  <a href="">
+  <button id="tt">
+    📡 T. Telecomunicações 
+  </button>
+  </a>
+  <a href="">
+  <button id="fs">
+    🌌🌘 Física 
+  </button>
+  </a>
+  <a href="">
+  <button id="al">
+    ⚡🌌👨‍💻📡⚗️ Aleatório
+  </button>
+  </a>
+</div>
+</body>
+<style>
+body {
+  background: #CCE3FF;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+  #cadeiras {
+    margin-left:1cm;
+    margin-top: 2cm;
+    padding-top: -5px;
+  height: 150px auto;
+  width: 80%;
+  background-color: #0D7BFF; 
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.05)
+  
+}
+  button {
+    background-color: #A1BAFFA1;
+    width: 90%;
+    height: 35px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+  }
+</style>
+<script>
+  let next = localStorage.getItem("next")
+  if(next) {
+  let link = document.getElementById("linkEl").href = next
+  let text = document.getElementById("text").textContent = "⚡ Electrónica II"
+  }
+  alert(next)
+</script>
+</html>

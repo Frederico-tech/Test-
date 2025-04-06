@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  font-weight: bold;
+  padding: 0;
+  text-align: center;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: #D1DAFF;
+}
+body {
+  height: 130vh;
+  background: 
+  linear-gradient(to left, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4) 10%), 
+  linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4) 10%), 
+  url('placa_1.jpeg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.inputs {
+  text-align: left;
+  padding-left: 10px;
+}
+h2 {
+  color: #D1DAFF;
+  font-weight: bold;
+}
+h3 {
+  margin-top: 20px;
+}
+input, label {
+ margin-top: 30px;
+}
+
+#desempenho{
+  margin-top: 30px;
+  border-top: 1px solid #01156400;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+}
+
+#date {
+  margin-top: 30px;
+  text-align: left;
+  padding-left: 45px;
+}
+#erro, #acerto, #ponto {
+  margin-left: 110px;
+  font-weight: bold;
+}
+#erro {
+  color: #FF0000;
+}
+#acerto {
+  color: #5FFF00;
+}
+#ponto {
+  color: #FAFF00;
+}
+#confirm {
+  margin-top: 50px;
+  background-color: #003AD1;
+  height: 45px;
+  width: 55%;
+  border: none;
+  border-radius: 50px;
+}
+#coment {
+  height: 30px;
+  width: 140px;
+  border: none;
+  border-radius: 5px;
+  background-color: #044EB3;
+  box-shadow: 10px 10px 25px rgba(99, 165, 255, 0.1);
+}
+#mensagem {
+  height: 30px;
+  border-radius: 5px;
+  outline-color: #047DD57A;
+  color: #0E1E33;
+}

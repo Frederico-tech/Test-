@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inscrição</title>
+</head>
+
+<body>
+<div id="alert">
+    <i id="nom"></i>Clique em confirmar pra continuar.
+    <p>
+      <a href="index.html">
+        <button>Confirmar</button>
+      </a>
+</div>
+<div id="cont">
+  <p>
+    <h1>
+      Preencher o formulário, e partcipe nos Jogos.
+    </h1>
+  </p>
+  <p>
+    <p>
+      <input id="nome" type="text" placeholder="Insira seu primeiro nome" maxlength="15">
+    </p>
+  </p>
+  <p>
+    <button onclick="go()" id="confirmar">PLAY</button>
+  </p>
+</div>
+</body>
+<style>
+*{
+  text-align: center;
+  align-items: center;
+  text-justify: center;
+}
+body {
+  margin: 0;
+  
+  height: 120vh;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  background: linear-gradient(120deg,#0600FF,#00E6FF);
+  align-items: center;
+}
+  #alert {
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    display: none;
+    background-color: white;
+    height: 150px;
+    width: 80%;
+    border: 2px solid red#00E6FF;
+    margin-top: 190px;
+    margin-left: 10%;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  #alert a button {
+    position: absolute;
+   background-color: red;
+   bottom: 0;
+   left: 0;
+   border: none;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   font-size: 11pt;
+   font-family: 'Times New Roman', Times, serif;
+   height: 50px;
+   width: 100%;
+
+  }
+  #confirmar {
+    border: none;
+    background:  linear-gradient(120deg, #6706FF, #06A7FF);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 12pt;
+    border-radius: 15px;
+    height: 40px;
+    width: 45%;
+    margin-top: 150px;
+  }
+  p input {
+   
+    outline: none;
+    border: none;
+    font-family:'Times New Roman', Times, serif;
+    color: #060B3D;
+    border-radius: 30px;
+    height: 30px;
+    width: 65%;
+    margin-top: 160px;
+    border: none;
+  }
+  h1 {
+    color: hsla(278, 96%, 4%, 1);
+  }
+</style>
+<script>
+function go() {
+  let name = document.getElementById("nome").value
+  if(name == "") {
+    alert("Insira seu primeiro nome")
+  }else if(name != ""){
+    localStorage.setItem('n',name);
+    let exib = document.getElementById("nom").textContent = name + ";"
+    let alerta = document.getElementById("alert").style.display = 'block'
+  }
+}
+  
+</script>
+</html>

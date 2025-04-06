@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#meno {
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  right: 0px;
+  left: 0px;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.2);
+  background-color: #28A745;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+#meno #social img {
+  height: 80px;
+  width: 35px;
+  margin-left: 18px;
+  border-radius: 50px;
+  margin-top: 25px;
+}
+#amburguer button {
+  height: 20px;
+  width: 20px;
+  background-color: transparent;
+  border: none;
+  position: fixed;
+  right: 40px;
+  top: 25px;
+}
+#amburguer button .a,.b,.c{
+  height: 3px;
+  width: 35px;
+  margin-top: 5px;
+  border-radius: 50px;
+  background-color: rgba(244, 255, 247, 1)
+}
+.esc {
+  animation: esc 100ms 1 linear;
+  width: 70%;
+  
+}
+.most {
+  animation: most 100ms 1 linear;
+  width: 0%;
+  display: block;
+}
+@keyframes most {
+  from{
+    width: 70%;
+  }to{
+    width: 0%;
+  }
+}
+@keyframes esc {
+  from {
+    width: 0%;
+  }to{
+    width: 70%;
+  }
+}
+#opcs {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  background-color: #4CDFFF;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  text-align: center;
+}
+#exit {
+  height: 100vh;
+  width: 30%;
+  background-color: red;
+  position: absolute;
+  right: 0px;
+  border: none;
+  background: transparent;
+  display: none;
+}
+li {
+  list-style: none;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 80px;
+  
+}
+li h2{
+  border-top: 0;
+}
+a {
+  text-decoration: none;
+  color: #000000B5;
+}
+body {
+  background-color: #BBBBBB3B;
+  text-align: center;
+}
+#conteudo {
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 1px;
+  margin-top: 3.5cm;
+  width: 99%;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+}
+#conteudo table {
+  width: 99%;
+  text-align: center;
+}
+.circle, .circle_mat, .circle_el, .circle_tt, .circle_qm, .circle_fs, .percent_elg {
+  margin-left: 35px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #DDDEEF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.percentagem, .percent_mat, .percent_el, .percent_tt, .percent_qm, .percent_fs, .percent_elg ,#b1,#b2 {
+  
+}
+#total, #total {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  text-align: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+#mm {
+  height: 1cm;
+}
+#b1, #b2 {
+  
+  background-color: transparent;
+  right: 3px;
+  position: absolute;
+  border: none;
+  
+  width: 40%;
+}
+#b1 {
+  display: none;
+}
+  
+  table {
+    width: 100%;
+    margin-top: 15px;
+  }
+tr th {
+  text-align: center;
+  font-weight: bold;
+}
+#comeco {
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 1px;
+  margin-top: 1px;
+  width: 99%;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  padding-bottom: 12px;
+}
+
+#go {
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 20px;
+  height: 40px;
+  width: 50%;
+  background-color: #3C80E2;
+  border: none;
+}

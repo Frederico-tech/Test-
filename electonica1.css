@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  
+  padding: 0;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+body{
+  
+}
+#jogo {
+  padding: 12px;
+  background: linear-gradient(120deg, #0053FF, #0053FF);
+  align-items: center;
+  align-items: center;
+  justify-content: center;
+  height: 130vh;
+  width: 100%;
+}
+#quest {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  width: 90%;
+  border-radius: 30px;
+  border: 2px solid black;
+  background: linear-gradient(130deg, #4483FF, #8AB0FF);
+  margin-left: 18px;
+  height: 2cm;
+}
+#a {
+  width: 90%;
+  display: flex;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: white;
+  margin-left: 15px;
+  height: 2cm;
+}
+#b {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 90%;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: white;
+  margin-left: 18px;
+  height: 2.5cm;
+}
+#c {
+  display: flex;
+  width: 90%;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: white;
+  margin-left: 18px;
+  height: 2.5cm;
+}
+#send, #sen {
+  height: 45px;
+  width: 70%;
+  background: linear-gradient(120deg, #29F8FC, #0083CC);
+  border: none;
+  border-radius: 10px;
+  
+}
+#sen {
+  display: none;
+  border: 1px solid #2371EB;
+}
+.look {
+  display: block;
+  animation: go 700ms 3;
+}
+.noLook {
+  display: none;
+}
+#alert {
+  border-radius: 10px;
+  border: none;
+  position: fixed;
+  top: 6.5cm;
+  right: 1.25cm;
+  background-color: yellow;
+  overflow: hidden;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height:  7cm;
+  width: 80%;
+  
+}
+#x {
+  background: linear-gradient(120deg, #FC3C00, #FC0000);
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: none;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15pt;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 0.7cm;
+  width: 1cm;
+}
+@keyframes go {
+  from {
+    height: 0cm;
+    width: 0%;
+  }to{
+    height: 7cm;
+    width: 80%;
+  }
+}

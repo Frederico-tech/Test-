@@ -1,0 +1,73 @@
+
+*{
+  margin: 0;
+  
+  padding: 0;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+body {
+ 
+ 
+}
+#jogo {
+  padding: 12px;
+  height: 130vh;
+  background: linear-gradient(120deg, #568DFF, #0053FF);
+  align-items: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+#quest {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  width: 90%;
+  border-radius: 30px;
+  border: 2px solid black;
+  background: linear-gradient(130deg, #B8D0FF, #8AB0FF);
+  margin-left: 18px;
+  height: 2cm;
+}
+#a {
+  width: 90%;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: white;
+  margin-left: 15px;
+  height: 2cm;
+}
+#b {
+  
+  width: 90%;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: white;
+  margin-left: 18px;
+  height: 2.5cm;
+}
+#c {
+  display: flex;
+  width: 90%;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: white;
+  margin-left: 18px;
+  height: 2.5cm;
+}
+#send, #sen {
+  height: 45px;
+  width: 70%;
+  background: linear-gradient(120deg, #29F8FC, #0083CC);
+  border: none;
+  border-radius: 10px;
+}
+#sen {
+  display: none;
+}
