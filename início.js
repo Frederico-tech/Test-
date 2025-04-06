@@ -67,4 +67,4 @@ const verificar = setInterval(() => {
     
   }
   
-}, 3000)
+}, 2000)
