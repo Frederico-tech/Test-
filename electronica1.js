@@ -5,7 +5,7 @@ var erro_1 = +localStorage.getItem("erro_1")
 let a = document.getElementById("a")
 let b = document.getElementById("b")
 let c = document.getElementById("c")
-alert(user)
+
 
 let usuario = document.getElementById("usuario").textContent = user + ", "
 let proximo = document.getElementById("sen")
